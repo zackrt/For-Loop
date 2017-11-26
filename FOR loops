@@ -1,0 +1,13 @@
+//for loops
+//for loops are used to run through a set of instructions a specific number of times. Here's a minimal example that just prints how many times the loop has run:
+
+const countTo = 10;
+for (let i = 1; i <= countTo; i++) {
+  console.log(i);
+}
+
+//This code will log the numbers 1 through 10 to the console. It says "Starting at i=1, log the value of i. After //logging i, if i is less than or equal to the value of countTo, increment i by one, and then repeat the process."
+
+//Note how the for keyword is followed by parentheses with three arguments: an initialized counter variable (let i = 1), a continue condition that if true means the loop will continue (i <= countTo), and a final expression that says how the counter is to be incremented each time through the loop (i++, which is basically a shortcut for i = i + 1.) You're not limited to incrementing by one for the final condition: depending on the problem you're solving, you can decrement (i--) or increment by, say, 2 (i+=2). That said, incrementing by one is most common.
+
+//After the parenthetical arguments, between the {..} brackets, we have the block of code that is to be executed each time through the loop.
